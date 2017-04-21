@@ -18,15 +18,15 @@
       	</div>
 
             <p class="comments">
-              <?php comments_popup_link(__('No responses yet'), __('One response so far'), __('% responses so far')); ?> 
+              <?php comments_popup_link(__('No responses yet'), __('One response so far'), __('% responses so far')); ?>
 
-            </p>          
+            </p>
 	        </div>
       <?php endwhile; else: ?>
           <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
       <?php endif; ?>
       <p align="center"><?php posts_nav_link(' - ','&#171; Newer','Older &#187;') ?></p>
 	</div>
-  <?php get_sidebar();?>
+
   <?php get_footer();
 ?>

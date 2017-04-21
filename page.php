@@ -25,5 +25,5 @@
       <?php endif; ?>
       <p align="center"><?php posts_nav_link(' - ','&#171; Prev','Next &#187;') ?></p>
 	</div>
-  <?php get_sidebar();?>
+
   <?php get_footer();?>
